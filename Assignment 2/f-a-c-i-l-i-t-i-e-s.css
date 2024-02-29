@@ -1,0 +1,38 @@
+.online-ticket-booking {
+  position: relative;
+}
+.frame-header {
+  width: 880px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.facilities,
+.image-9-icon {
+  position: relative;
+  overflow: hidden;
+}
+.image-9-icon {
+  align-self: stretch;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.facilities {
+  width: 100%;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 70px 0 0;
+  box-sizing: border-box;
+  gap: 59px 0;
+}

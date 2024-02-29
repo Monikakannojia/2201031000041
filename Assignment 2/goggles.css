@@ -1,0 +1,53 @@
+.goggles-experience {
+  position: relative;
+}
+.goggles-experience-wrapper {
+  width: 973px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.goggles,
+.image-4-icon {
+  position: relative;
+  overflow: hidden;
+}
+.image-4-icon {
+  align-self: stretch;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.goggles {
+  width: 100%;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 88px 0 0;
+  box-sizing: border-box;
+  gap: 49px 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .goggles-experience {
+    font-size: var(--font-size-32xl);
+  }
+  .goggles {
+    gap: 49px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .goggles-experience {
+    font-size: var(--font-size-19xl);
+  }
+}

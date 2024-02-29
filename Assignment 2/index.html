@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="homepage">
+      <header class="homepage-inner">
+        <div class="home-parent">
+          <div class="home">
+            <p class="home1">Home</p>
+          </div>
+          <div class="creative-text">
+            <div class="creative-world" id="creativeWorldText">
+              creative world
+            </div>
+          </div>
+          <div class="image-rectangle">
+            <div class="about" id="aboutText">About</div>
+          </div>
+          <div class="contact-us" id="contactUsText">Contact us</div>
+        </div>
+      </header>
+      <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+    </div>
+
+    <script>
+      var creativeWorldText = document.getElementById("creativeWorldText");
+      if (creativeWorldText) {
+        creativeWorldText.addEventListener("click", function (e) {
+          window.location.href = "./goggles.html";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function (e) {
+          window.location.href = "./d-movies.html";
+        });
+      }
+      
+      var contactUsText = document.getElementById("contactUsText");
+      if (contactUsText) {
+        contactUsText.addEventListener("click", function (e) {
+          window.location.href = "./f-a-c-i-l-i-t-i-e-s.html";
+        });
+      }
+      </script>
+  </body>
+</html>

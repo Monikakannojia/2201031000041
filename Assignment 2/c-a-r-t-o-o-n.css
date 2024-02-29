@@ -1,0 +1,93 @@
+.image-7-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.d-cartoon {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.text-label {
+  width: 695px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.the-3d-movie-effect-refers {
+  width: 1330px;
+  height: 403px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.rectangle-shape {
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cartoon,
+.parent-frame,
+.rectangle-shape {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent-frame {
+  flex-direction: row;
+  padding: 0 19px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.cartoon {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: 80px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .d-cartoon {
+    font-size: var(--font-size-32xl);
+  }
+  .the-3d-movie-effect-refers {
+    font-size: var(--font-size-13xl);
+  }
+  .cartoon {
+    gap: 80px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .d-cartoon {
+    font-size: var(--font-size-19xl);
+  }
+  .the-3d-movie-effect-refers {
+    font-size: var(--font-size-5xl);
+  }
+  .cartoon {
+    gap: 80px 0;
+  }
+}

@@ -1,0 +1,41 @@
+.image-3-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.a-three-dimensional-quality,
+.d-motion-picture-process,
+.d-movies-like {
+  margin: 0;
+}
+.d-movies-like-container {
+  position: relative;
+  text-shadow: 1px 0 0#c10d0d, 0 1px 0#c10d0d, -1px 0 0#c10d0d, 0-1px 0#c10d0d;
+}
+.d-movies,
+.f-r-a-m-e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.f-r-a-m-e {
+  flex-direction: row;
+  padding: 0 35px;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.d-movies {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 40px;
+  box-sizing: border-box;
+  gap: 19px 0;
+}
